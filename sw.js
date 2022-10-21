@@ -26,7 +26,7 @@ const URLS_TO_CACHE = [
 	"src/atoms/icon.js",
 	"src/atoms/compact-switch.js",
 	"src/atoms/snackbar.js",
-	"src/data/accessibility.js",
+	"src/data/자바스크립트-기초문법.js",
 	"src/data/algorithms.js",
 	"src/data/architecture-and-paradigmes.js",
 	"src/data/build-tools.js",
