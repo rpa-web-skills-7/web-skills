@@ -1,5 +1,5 @@
 export const webcomponentsCollection = {
-	name: "Web Components",
+	name: "자바스크립트의 객체",
 	areas: [
 		{
 			skills: [

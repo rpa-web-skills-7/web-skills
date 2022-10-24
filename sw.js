@@ -38,7 +38,7 @@ const URLS_TO_CACHE = [
 	"src/data/pwa.js",
 	"src/data/team-collaboration.js",
 	"src/data/testing.js",
-	"src/data/web-components.js",
+	"src/data/자바스크립트의-객체.js",
 	"src/styles/shared.js",
 	"src/styles/global.css",
 	"web_modules/web-dialog.js"
@@ -83,7 +83,7 @@ self.addEventListener("fetch", e => {
  */
 self.addEventListener("message", async e => {
 	log(`Message`);
-	const {action} = e.data;
+	const { action } = e.data;
 	switch (action) {
 		case "skipWaiting":
 			self.skipWaiting();
@@ -96,7 +96,7 @@ self.addEventListener("message", async e => {
 /**
  * Show debug message.
  */
-function log () {
+function log() {
 	if (DEBUG) {
 		console.log(`SW (${CACHE_NAME})`, ...arguments);
 	}
@@ -106,18 +106,18 @@ function log () {
  * Precache the resources.
  * @returns {Promise<void>}
  */
-async function precache () {
+async function precache() {
 	const cache = await caches.open(CACHE_NAME);
 
 	// https://jakearchibald.com/2016/caching-best-practices/
-	await cache.addAll(URLS_TO_CACHE.map(url => new Request(url, {cache: "no-cache"})));
+	await cache.addAll(URLS_TO_CACHE.map(url => new Request(url, { cache: "no-cache" })));
 }
 
 /**
  * Deletes old caches.
  * @returns {Promise<void>}
  */
-async function deleteOldCaches () {
+async function deleteOldCaches() {
 	const keys = await caches.keys();
 
 	// Delete old caches
@@ -133,7 +133,7 @@ async function deleteOldCaches () {
  * @param url
  * @returns {string}
  */
-function isBlacklistedUrl (url) {
+function isBlacklistedUrl(url) {
 	return BLACK_LISTED_REQUEST_PATHS.find(path => url.includes(path));
 }
 
@@ -142,8 +142,8 @@ function isBlacklistedUrl (url) {
  * @param e
  * @returns {Promise<Response>}
  */
-async function cacheOrNetworkAndCache (e) {
-	const {request} = e;
+async function cacheOrNetworkAndCache(e) {
+	const { request } = e;
 
 	// DevTools opening will trigger these o-i-c requests, which we ignore.
 	// https://stackoverflow.com/a/49719964
