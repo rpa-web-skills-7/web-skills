@@ -3,46 +3,48 @@ export const accessibilityCollection = {
 	areas: [
 		{
 			skills: [
+				// {
+				// 	name: "The why",
+				// 	description: {
+				// 		text: "Learn what accessibility is and why it is important.",
+				// 		links: [
+				// 			["Google Devs - Accessibility Fundamentals", "https://developers.google.com/web/fundamentals/accessibility/"],
+				// 			["A11ycasts with Rob Dodson", "https://www.youtube.com/playlist?list=PLNYkxOF6rcICWx0C9LVWWVqvHlYJyqw7g"],
+				// 			["Udacity - Chromevox Lite", "http://udacity.github.io/ud891/lesson3-semantics-built-in/02-chromevox-lite/"],
+				// 			["Dev.to - Why Accessibility Matters", "https://dev.to/lhoffmanwg1/why-accessibility-matters-39nl"],
+				// 			["Abilitynet - Why Accessibility Matters", "https://www.abilitynet.org.uk/why-accessibility-matters"],
+				// 			["Udacity - Web Accessibility", "https://www.udacity.com/course/web-accessibility--ud891"],
+				// 			["Youtube - Headings, Landmarks, and Tabs", "https://www.youtube.com/watch?v=HE2R86EZPMA"],
+				// 		]
+				// 	}
+				// },
+				// {
+				// 	name: "Screen Readers",
+				// 	description: {
+				// 		text: "Learn about assistive technology such as screen readers that reads sections of the page aloud based on the current focus.",
+				// 		links: [
+				// 			["The A11Y Project - Screen Reader Myths", "https://a11yproject.com/posts/people-who-use-screen-readers-dont-use-javascript/"],
+				// 			["The A11Y Project - NVDA Screen Reader", "https://a11yproject.com/posts/getting-started-with-nvda/"],
+				// 			["The A11Y Project - OS X Voiceover", "https://a11yproject.com/posts/getting-started-with-voiceover/"],
+				// 			["Webaim - Screen Reader Survey", "https://webaim.org/projects/screenreadersurvey7/"]
+				// 		]
+				// 	}
+				// },
 				{
-					name: "The why",
+					name: "변수 자료형 연산자",
 					description: {
-						text: "Learn what accessibility is and why it is important.",
-						links: [
-							["Google Devs - Accessibility Fundamentals", "https://developers.google.com/web/fundamentals/accessibility/"],
-							["A11ycasts with Rob Dodson", "https://www.youtube.com/playlist?list=PLNYkxOF6rcICWx0C9LVWWVqvHlYJyqw7g"],
-							["Udacity - Chromevox Lite", "http://udacity.github.io/ud891/lesson3-semantics-built-in/02-chromevox-lite/"],
-							["Dev.to - Why Accessibility Matters", "https://dev.to/lhoffmanwg1/why-accessibility-matters-39nl"],
-							["Abilitynet - Why Accessibility Matters", "https://www.abilitynet.org.uk/why-accessibility-matters"],
-							["Udacity - Web Accessibility", "https://www.udacity.com/course/web-accessibility--ud891"],
-							["Youtube - Headings, Landmarks, and Tabs", "https://www.youtube.com/watch?v=HE2R86EZPMA"],
-						]
-					}
-				},
-				{
-					name: "Screen Readers",
-					description: {
-						text: "Learn about assistive technology such as screen readers that reads sections of the page aloud based on the current focus.",
-						links: [
-							["The A11Y Project - Screen Reader Myths", "https://a11yproject.com/posts/people-who-use-screen-readers-dont-use-javascript/"],
-							["The A11Y Project - NVDA Screen Reader", "https://a11yproject.com/posts/getting-started-with-nvda/"],
-							["The A11Y Project - OS X Voiceover", "https://a11yproject.com/posts/getting-started-with-voiceover/"],
-							["Webaim - Screen Reader Survey", "https://webaim.org/projects/screenreadersurvey7/"]
-						]
-					}
-				},
-				{
-					name: "Accessibility tree",
-					description: {
-						text: "Learn about the accessibility tree and how assistive technology uses it.",
+						// text: "Learn about the accessibility tree and how assistive technology uses it.",
+						text: "자바스크립트의 변수 자료형 연산자에 대한 이해",
 						links: [
 							["Google Devs - The Accessibility Tree", "https://developers.google.com/web/fundamentals/accessibility/semantics-builtin/the-accessibility-tree"]
 						]
 					},
 					skills: [
 						{
-							name: "ARIA",
+							name: "변수란",
 							description: {
-								text: "Learn how to use ARIA descriptions an labels to help assistive technology understanding your website.",
+								// text: "Learn how to use ARIA descriptions an labels to help assistive technology understanding your website.",
+								text: "변수란 무엇인지 알아보자",
 								links: [
 									["Google Devs - ARIA Labels", "https://developers.google.com/web/fundamentals/accessibility/semantics-aria/aria-labels-and-relationships"],
 									["Google Devs - Hiding and updating content", "https://developers.google.com/web/fundamentals/accessibility/semantics-aria/hiding-and-updating-content"],
@@ -52,9 +54,9 @@ export const accessibilityCollection = {
 							}
 						},
 						{
-							name: "Accessible HTML",
+							name: "자료형 이해하기",
 							description: {
-								text: "Learn how to write HTML in such as way that assistive technology better understands it.",
+								text: "자바스크립트의 자료형에 대한 이해",
 								links: [
 									["Google Devs - Introduction to Semantics", "https://developers.google.com/web/fundamentals/accessibility/semantics-builtin/"],
 									["MDN - Accessibility HTML", "https://developer.mozilla.org/en-US/docs/Learn/Accessibility/HTML"],
@@ -63,28 +65,40 @@ export const accessibilityCollection = {
 									["Freecodecamp - Semantic Elements", "https://guide.freecodecamp.org/html/html5-semantic-elements/"]
 								]
 							},
-							skills: [
-								{
-									name: "Alt text",
-									description: {
-										text: "Learn how to use the alt attribute to provide a useful text alternative to this image.",
-										links: [
-											["Google Devs - Text Alternatives for Images", "https://developers.google.com/web/fundamentals/accessibility/semantics-builtin/text-alternatives-for-images"],
-											["Webaim - Accessible Images", "https://webaim.org/techniques/images/"],
-											["Webaim - Alternative text", "https://webaim.org/techniques/alttext/"],
-										]
-									}
-								}
-							]
+							// skills: [
+							// 	{
+							// 		name: "Alt text",
+							// 		description: {
+							// 			text: "Learn how to use the alt attribute to provide a useful text alternative to this image.",
+							// 			links: [
+							// 				["Google Devs - Text Alternatives for Images", "https://developers.google.com/web/fundamentals/accessibility/semantics-builtin/text-alternatives-for-images"],
+							// 				["Webaim - Accessible Images", "https://webaim.org/techniques/images/"],
+							// 				["Webaim - Alternative text", "https://webaim.org/techniques/alttext/"],
+							// 			]
+							// 		}
+							// 	}
+							// ]
 						},
 						{
-							name: "Accessible CSS",
+							// name: "Accessible CSS",
+							name: "연산자 이해하기",
 							description: {
-								text: "Learn how to write CSS in such as way that assistive technology better understands it.",
+								text: "자바스크립트에서의 연산자에 대해 이해",
 								links: [
 									["Webaim - CSS", "https://webaim.org/techniques/css/"]
 								]
+							},
+							skills: [
+							{
+								name: "연산자 깊게 알아보기",
+								description: {
+									text: "연산자를 이용해 손쉽게 할수 있는 여러가지 방법에 대해 깊이있게 알아보기",
+									links: [
+										["Webaim - CSS", "https://webaim.org/techniques/css/"]
+									]
+								}
 							}
+							]
 						},
 					]
 				},
