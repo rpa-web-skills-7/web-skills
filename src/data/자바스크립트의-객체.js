@@ -4,7 +4,7 @@ export const webcomponentsCollection = {
 		{
 			skills: [
 				{
-					name: "Custom Elements",
+					name: "객체(Object)",
 					description: {
 						text: "Learn how to create new HTML tags with Custom Elements.",
 						links: [
