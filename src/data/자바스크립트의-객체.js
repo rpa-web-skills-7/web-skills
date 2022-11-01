@@ -7,41 +7,31 @@ export const webcomponentsCollection = {
 				{
 					name: "객체란",
 					description: {
-						text: "Learn how to create new HTML tags with Custom Elements.",
+						text: "자바스크립트는 객체 기반 프로그래밍 언어이다. 자바스크립트를 구성하는 거의 ‘모든 것’이 객체이다.",
 						links: [
-							["Google Devs - Custom Elements", "https://developers.google.com/web/fundamentals/web-components/customelements"],
-							["MDN - Using Custom Elements", "https://developer.mozilla.org/en-US/docs/Web/Web_Components/Using_custom_elements"],
-							["CSS Tricks - Creating a Custom Element from Scratch", "https://css-tricks.com/creating-a-custom-element-from-scratch/"],
-							["Javascript.info - Custom Elements", "https://javascript.info/custom-elements"],
-							["dev.to - An introduction to Custom Elements", "https://dev.to/jamesrweb/an-introduction-to-custom-elements-5327"],
-							["itnext - Introduction to Web Components", "https://itnext.io/introduction-to-web-components-part-i-custom-elements-4de6713cef9d"],
-							["web.dev - Web Components", "https://web.dev/web-components-io-2019/"]
+							["객체(Object)란 무엇일까? (기초)", "https://hanamon.kr/javascript-%EA%B0%9D%EC%B2%B4-%EA%B8%B0%EC%B4%88/"],
+							["객체: 기본", "https://ko.javascript.info/object"],
 						]
 					}
 				},
 				{
 					name: "사용자 정의 객체",
 					description: {
-						text: "Learn how to use HTML templates to create flexible templates that can then be used to populate the Shadow DOM.",
+						text: "사용자 정의 객체란? 내장객체가 아닌 사용자가 만드는객체",
 						links: [
-							["MDN - Using Templates & Slots", "https://developer.mozilla.org/en-US/docs/Web/Web_Components/Using_templates_and_slots"],
-							["Javascript.info - Template Element", "https://javascript.info/template-element"],
-							["MDN - The Content Template element", "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/template"]
+							["고경희강사님 강의", "https://www.youtube.com/watch?v=9EOXgTrTb3k"],
+							["사용자 정의 객체", "https://opentutorials.org/module/1597/9783"],
+							["Object 객체 정의 - 객체 리터럴 및 사용자 정의 객체", "https://webclub.tistory.com/390"]
 						]
 					},
 				},
 				{
 					name: "Date 객체 활용",
 					description: {
-						text: "Learn how to encapsulate your CSS using Shadow DOM.",
+						text: "Date 객체를 활용하면 생성 및 수정 시간을 저장하거나 시간을 측정할 수 있고, 현재 날짜를 출력하는 용도 등으로도 활용할 수 있습니다.",
 						links: [
-							["Google Devs - Shadow DOM", "https://developers.google.com/web/fundamentals/web-components/shadowdom"],
-							["MDN - Using Shadow DOM", "https://developer.mozilla.org/en-US/docs/Web/Web_Components/Using_shadow_DOM"],
-							["MDN - Shadow Tree", "https://developer.mozilla.org/en-US/docs/Glossary/Shadow_tree"],
-							["CSS Tricks - Encapsulating Style and Structure", "https://css-tricks.com/encapsulating-style-and-structure-with-shadow-dom/"],
-							["itnext - Introduction to Web Components", "https://itnext.io/introduction-to-web-components-part-ii-shadow-dom-8d1d8e126332"],
-							["Monica - Shadow DOM: fast and encapsulated styles", "https://meowni.ca/posts/shadow-dom/"]
-
+							["Date 객체와 날짜", "https://ko.javascript.info/date"],
+							["Date-개발자를 위한 웹 기술", "https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Date"],
 						]
 					},
 					// skills: [
@@ -81,40 +71,33 @@ export const webcomponentsCollection = {
 				{
 					name: "Array 객체란",
 					description: {
-						text: "Get familiar with best practices when it comes to building Web Components.",
+						text: "객체 생성, 객체 안에 배열 생성, 배열안에 객체 생성",
 						links: [
-							["Google Devs - Custom Element Best Practices", "https://developers.google.com/web/fundamentals/web-components/best-practices"],
-							["Webcomponents.org - Web Components Best Practices", "https://www.webcomponents.org/community/articles/web-components-best-practices"],
-							["mateusortiz - Web Components the Right Way", "https://github.com/mateusortiz/webcomponents-the-right-way"],
-							["dev.to - Making Web Components for Different Contexts", "https://dev.to/equinusocio/making-web-components-for-different-contexts-25ed"]
+							["객체(Object)와 배열(Array)", "https://www.zerocho.com/category/JavaScript/post/572c6f759a5f1c4db2481ee3"],
+							["배열(Array)이란 무엇일까? (기초)", "https://hanamon.kr/javascript-%EA%B0%9D%EC%B2%B4-%EA%B8%B0%EC%B4%88/"],
+
 						]
 					}
 				},
 				{
 					name: "Array 객체의 함수 알아보기",
 					description: {
-						text: "Learn how the Constructible Stylesheets proposal enables reusable styles when using shadow dom.",
+						text: "JavaScript Array 클래스는 리스트 형태의 고수준 객체인 배열을 생성할 때 사용하는 전역 객체입니다.",
 						links: [
-							["Google Devs - Constructable Stylesheets", "https://developers.google.com/web/updates/2019/02/constructable-stylesheets"],
-							["W3C - Constructable Stylesheet Objects", "https://wicg.github.io/construct-stylesheets/"],
-							["dev.to - Why Would Anyone Use Constructible Stylesheets", "https://dev.to/westbrook/why-would-anyone-use-constructible-stylesheets-anyways-19ng"],
-							["Benjamin Farrel - Adopt a Design System", "https://medium.com/swlh/adopt-a-design-system-inside-your-web-components-with-constructable-stylesheets-dd24649261e"],
-							["WICG - Constructable Stylesheet Objects", "https://github.com/WICG/construct-stylesheets/blob/gh-pages/explainer.md"],
-							["Chrome Status - Constructible Stylesheets", "https://www.chromestatus.com/feature/5394843094220800"]
+							["Array - 개발자를 위한 웹 기술", "https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Array"],
+							["Array 객체의 메소드", "https://webclub.tistory.com/79"]
+
 						]
 					}
 				},
 				{
 					name: "여행 준비물 점검 프로그램 만들기",
 					description: {
-						text: "Learn how the Form Participation API proposal enables elements, other than built-in form control elements, to participate in form submission and validation.",
+						text: "여행준비물이나 아니면 간단한 점검 목록을 메모 할 수 있는 프로그램을 DOM과 배열로 구현",
 						links: [
-							["Form Participation API Explained", "https://docs.google.com/document/d/1JO8puctCSpW-ZYGU8lF-h4FWRIDQNDVexzHoOQ2iQmY/edit"],
-							["Chrome Status - Form-associated custom elements", "https://www.chromestatus.com/features/4708990554472448"],
-							["web-platform-tests - Form Participation", "https://github.com/web-platform-tests/wpt/tree/master/custom-elements/form-associated"],
-							["Google Devs - Form-associated custom elements", "https://developers.google.com/web/updates/2019/09/nic77#form-associated_custom_elements"],
-							["web.dev - More capable form controls", "https://web.dev/more-capable-form-controls/"],
-							["W3C - Creating a form-associated custom element", "https://html.spec.whatwg.org/multipage/custom-elements.html#custom-elements-face-example"],
+							["여행 준비물 점검 목록 만들기", "https://malonmiming.tistory.com/111"],
+							["여행 준비물 점검 목록 만들기", "https://heimish77.tistory.com/29"],
+							["[자바스크립트] 점검 목록 프로그램", "https://velog.io/@tmdckzm/%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8-%EC%A0%90%EA%B2%80-%EB%AA%A9%EB%A1%9D-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%A8"]
 						]
 					}
 				}
