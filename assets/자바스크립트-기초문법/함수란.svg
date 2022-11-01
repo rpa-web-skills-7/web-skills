@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg width="73px" height="73px" viewBox="0 0 73 73" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
-    <title>accessibility/screen-readers</title>
+    <!-- <title>자바스크립트-기초문법/screen-readers</title> -->
+    <title>자바스크립트-기초문법/함수란</title>
     <desc>Created with Sketch.</desc>
     <defs></defs>
-    <g id="accessibility/screen-readers" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+    <g id="자바스크립트-기초문법/함수란" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <g id="container" transform="translate(2.000000, 2.000000)" fill-rule="nonzero">
             <rect id="mask" stroke="#C90A23" stroke-width="2" fill="#FFFFFF" x="-1" y="-1" width="71" height="71" rx="14"></rect>
             <g id="open-book" transform="translate(8.000000, 15.000000)">
