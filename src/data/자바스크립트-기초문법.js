@@ -90,15 +90,11 @@ export const accessibilityCollection = {
 								{
 									name: "중첩 for문",
 									description: {
-										text: "Learn how to create a sensible tab order and how to make it easy for the users to locate the currently focused element.",
+										text: "for문안에 for를 사용한 중첩 for문 알아보기",
 										links: [
-											["web.dev - Control focus with tabindex", "https://web.dev/control-focus-with-tabindex/"],
-											["Google Devs - Focus", "https://developers.google.com/web/fundamentals/accessibility/focus/"],
-											["Google Devs - Dom Order Matters", "https://developers.google.com/web/fundamentals/accessibility/focus/dom-order-matters"],
-											["Google Devs - Using Tabindex", "https://developers.google.com/web/fundamentals/accessibility/focus/using-tabindex"],
-											["Google Devs - Track Focus", "https://developers.google.com/web/tools/chrome-devtools/accessibility/focus"],
-											["MDN - :focus-visible", "https://developer.mozilla.org/en-US/docs/Web/CSS/:focus-visible"],
-											["MDN - :focus-within", "https://developer.mozilla.org/en-US/docs/Web/CSS/:focus-within"]
+											["Tistory - 중첩for문", "https://colossus-java-practice.tistory.com/40"],
+											["gitbook - 중첩for문으로 구구단만들기", "https://thldnjs1234.gitbook.io/javascript-jquery/undefined-7/for-1"],
+											["velog - 구구단만들기 예제", "https://velog.io/@khd/%EC%A4%91%EC%B2%A9-for%EB%AC%B8"]
 										]
 									}
 								}
@@ -107,25 +103,22 @@ export const accessibilityCollection = {
 						{	// while문과 do while문
 							name: "while문과 do while문",
 							description: {
-								text: "Learn how to select colors in such a way that users, including those with visual disabilities, can perceive the content on the page.",
+								text: "다른 반복문인 while과 do while문을 이해하기",
 								links: [
-									["Webaim - Contrast and Color", "https://webaim.org/articles/contrast/"],
-									["The A11Y Project - Check contrast", "https://a11yproject.com/posts/check-contrast-with-mobile-device/"],
-									["The A11Y Project - What is color contrast?", "https://a11yproject.com/posts/what-is-color-contrast/"],
-									["Designing accessible color systems", "https://stripe.com/en-dk/blog/accessible-color-systems"],
+									["MDN Web Docs - do while", "https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Statements/do...while"],
+									["everdevel - while문", "https://www.everdevel.com/JavaScript/js-while/"],
+									["Tistory - while문과 do while문 ", "https://yjshin.tistory.com/entry/JavaScript-%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8-%EB%B0%98%EB%B3%B5%EB%AC%B8-while-%EB%AC%B8%EA%B3%BC-do-while-%EB%AC%B8"],
 								]
 							}
 						},
 						{	// break문 continue문
 							name: "break문 continue문",
 							description: {
-								text: "Learn about the governmental policies related to web accessibility.",
+								text: "반복문의 제어를 넘기는 break문과 continue문 알아보기",
 								links: [
-									["W3C - Laws & Policies", "https://www.w3.org/WAI/policies/"],
-									["Webaim - Laws around the world", "https://webaim.org/articles/laws/world/"],
-									["Webaim - Section 508", "https://webaim.org/standards/508/checklist"],
-									["Webaim - WCAG 2 Checklist", "https://webaim.org/standards/wcag/checklist"],
-									["A11Y.dev - Lawsuits", "https://a11y.dev/470-digital-accessibility-cases-were-filed-in-q3-2018/"],
+									["everdevel - continue문과 break문", "https://www.everdevel.com/JavaScript/js-continue-break/"],
+									["MDN Web Docs - continue", "https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Statements/continue"],
+									["dasima - 제어문 예제", "https://dasima.xyz/javascript-break-continue/"],
 								]
 							},
 						},
@@ -134,15 +127,9 @@ export const accessibilityCollection = {
 				{	// 함수와 이벤트
 					name: "함수와 이벤트",
 					description: {
-						text: "Learn what accessibility is and why it is important.",
+						text: "자바스크립트의 함수와 이벤트 이해하기",
 						links: [
-							["Google Devs - Accessibility Fundamentals", "https://developers.google.com/web/fundamentals/accessibility/"],
-							["A11ycasts with Rob Dodson", "https://www.youtube.com/playlist?list=PLNYkxOF6rcICWx0C9LVWWVqvHlYJyqw7g"],
-							["Udacity - Chromevox Lite", "http://udacity.github.io/ud891/lesson3-semantics-built-in/02-chromevox-lite/"],
-							["Dev.to - Why Accessibility Matters", "https://dev.to/lhoffmanwg1/why-accessibility-matters-39nl"],
-							["Abilitynet - Why Accessibility Matters", "https://www.abilitynet.org.uk/why-accessibility-matters"],
-							["Udacity - Web Accessibility", "https://www.udacity.com/course/web-accessibility--ud891"],
-							["Youtube - Headings, Landmarks, and Tabs", "https://www.youtube.com/watch?v=HE2R86EZPMA"],
+							["velog - 함수와 이벤트", "https://velog.io/@dksdpdms520/JavaScript-%ED%95%A8%EC%88%98%EC%99%80-%EC%9D%B4%EB%B2%A4%ED%8A%B8"],
 						]
 					},
 					skills: [
@@ -150,48 +137,31 @@ export const accessibilityCollection = {
 							// name: "Screen Readers",
 							name: "함수란",
 							description: {
-								text: "Learn about assistive technology such as screen readers that reads sections of the page aloud based on the current focus.",
+								text: "자바스크립트에서 함수 사용하기",
 								links: [
-									["The A11Y Project - Screen Reader Myths", "https://a11yproject.com/posts/people-who-use-screen-readers-dont-use-javascript/"],
-									["The A11Y Project - NVDA Screen Reader", "https://a11yproject.com/posts/getting-started-with-nvda/"],
-									["The A11Y Project - OS X Voiceover", "https://a11yproject.com/posts/getting-started-with-voiceover/"],
-									["Webaim - Screen Reader Survey", "https://webaim.org/projects/screenreadersurvey7/"]
+									["MDN Web Docs - 함수", "https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Functions"],
+									["tcpschool - 함수의 기초", "http://www.tcpschool.com/javascript/js_function_basic"],
 								]
 							}
 						},
 						{
 							name: "함수 만들기",
 							description: {
-								text: "Learn how to conduct an accessibility review to improve the overall experience of using your site. Remember, good accessibility equals good UX!",
+								text: "자바스크립트 함수의 선언과 특징",
 								links: [
-									["web.dev - Accessibility audits", "https://web.dev/lighthouse-accessibility"],
-									["Google Devs - How to review", "https://developers.google.com/web/fundamentals/accessibility/how-to-review"],
-									["Webaim - Accessibility Tools", "https://webaim.org/articles/tools/"],
-									["Google Devs - Accessibility Reference", "https://developers.google.com/web/tools/chrome-devtools/accessibility/reference"],
-									["Webaim - Wave", "http://wave.webaim.org/"],
-									["Google Chrome - NoCoffee Extension", "https://chrome.google.com/webstore/detail/nocoffee/jjeeggmbnhckmgdhmgdckeigabjfbddl"],
-									["Digital A11Y - Accessibility Plugins", "https://www.digitala11y.com/accessibility-plug-ins-ie-chrome-firefox-browsers/"],
-									["Google Devs - Accessibility for teams", "https://developers.google.com/web/fundamentals/accessibility/a11y-for-teams"],
-									["WCAG 2.0 checklists", "https://www.wuhcag.com/wcag-checklist/"],
-									["How to Meet WCAG (Quick Reference)", "https://www.w3.org/WAI/WCAG21/quickref/"],
+									["yceffort - 함수 선언하는 6가지 방법", "https://yceffort.kr/2020/10/6-different-ways-to-declare-javascript-function"],
+									["medium - 함수와 hoisting", "https://medium.com/sjk5766/javascript-%ED%95%A8%EC%88%98%EB%A5%BC-%EC%83%9D%EC%84%B1%ED%95%98%EB%8A%94-3%EA%B0%80%EC%A7%80-%EB%B0%A9%EC%8B%9D-%EA%B7%B8%EB%A6%AC%EA%B3%A0-%ED%95%A8%EC%88%98-hoisting-f5905fa9a4fb"],
 								]
 							}
 						},
 						{
 							name: "이벤트 다루기",
 							description: {
-								text: "Learn how to conduct an accessibility review to improve the overall experience of using your site. Remember, good accessibility equals good UX!",
+								text: "자바스크립트에서의 이벤트와 종류",
 								links: [
-									["web.dev - Accessibility audits", "https://web.dev/lighthouse-accessibility"],
-									["Google Devs - How to review", "https://developers.google.com/web/fundamentals/accessibility/how-to-review"],
-									["Webaim - Accessibility Tools", "https://webaim.org/articles/tools/"],
-									["Google Devs - Accessibility Reference", "https://developers.google.com/web/tools/chrome-devtools/accessibility/reference"],
-									["Webaim - Wave", "http://wave.webaim.org/"],
-									["Google Chrome - NoCoffee Extension", "https://chrome.google.com/webstore/detail/nocoffee/jjeeggmbnhckmgdhmgdckeigabjfbddl"],
-									["Digital A11Y - Accessibility Plugins", "https://www.digitala11y.com/accessibility-plug-ins-ie-chrome-firefox-browsers/"],
-									["Google Devs - Accessibility for teams", "https://developers.google.com/web/fundamentals/accessibility/a11y-for-teams"],
-									["WCAG 2.0 checklists", "https://www.wuhcag.com/wcag-checklist/"],
-									["How to Meet WCAG (Quick Reference)", "https://www.w3.org/WAI/WCAG21/quickref/"],
+									["MDN Web Docs - 이벤트", "https://developer.mozilla.org/ko/docs/Learn/JavaScript/Building_blocks/Events"],
+									["ktword - 이벤트 종류", "http://www.ktword.co.kr/test/view/view.php?no=2744"],
+									["Tistory - 이벤트 정리", "https://inpa.tistory.com/entry/JS-%F0%9F%93%9A-%EC%9D%B4%EB%B2%A4%ED%8A%B8-%F0%9F%92%AF-%EC%B4%9D-%EC%A0%95%EB%A6%AC"],
 								]
 							}
 						},
