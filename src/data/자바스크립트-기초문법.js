@@ -9,20 +9,17 @@ export const accessibilityCollection = {
 						// text: "Learn about the accessibility tree and how assistive technology uses it.",
 						text: "자바스크립트의 변수 자료형 연산자에 대한 이해",
 						links: [
-							["Google Devs - The Accessibility Tree", "https://developers.google.com/web/fundamentals/accessibility/semantics-builtin/the-accessibility-tree"]
+							["velog.io - 변수,자료형,연산자", "https://velog.io/@fltxld3/JS-%EB%B3%80%EC%88%98-%EC%9E%90%EB%A3%8C%ED%98%95-%EC%97%B0%EC%82%B0%EC%9E%90"]
 						]
 					},
 					skills: [
 						{
 							name: "변수란",
 							description: {
-								// text: "Learn how to use ARIA descriptions an labels to help assistive technology understanding your website.",
 								text: "변수란 무엇인지 알아보자",
 								links: [
-									["Google Devs - ARIA Labels", "https://developers.google.com/web/fundamentals/accessibility/semantics-aria/aria-labels-and-relationships"],
-									["Google Devs - Hiding and updating content", "https://developers.google.com/web/fundamentals/accessibility/semantics-aria/hiding-and-updating-content"],
-									["The A11Y Project - ARIA States", "https://a11yproject.com/posts/ARIA-states/"],
-									["The A11Y Project - ARIA Properties", "https://a11yproject.com/posts/ARIA-properties/"],
+									["Javascript Info - 변수와 상수 ", "https://ko.javascript.info/variables"],
+									["MDN Web Docs - Grammer and Types", "https://developer.mozilla.org/ko/docs/Web/JavaScript/Guide/Grammar_and_types"],
 								]
 							}
 						},
@@ -31,21 +28,17 @@ export const accessibilityCollection = {
 							description: {
 								text: "자바스크립트의 자료형에 대한 이해",
 								links: [
-									["Google Devs - Introduction to Semantics", "https://developers.google.com/web/fundamentals/accessibility/semantics-builtin/"],
-									["MDN - Accessibility HTML", "https://developer.mozilla.org/en-US/docs/Learn/Accessibility/HTML"],
-									["Webaim - Skip navigation", "https://webaim.org/techniques/skipnav/"],
-									["w3c - Headings", "https://www.w3.org/WAI/tutorials/page-structure/headings/"],
-									["Freecodecamp - Semantic Elements", "https://guide.freecodecamp.org/html/html5-semantic-elements/"]
+									["MDN Web Docs - Data Structures", "https://developer.mozilla.org/ko/docs/Web/JavaScript/Data_structures"],
 								]
 							},
 						},
 						{
-							// name: "Accessible CSS",
 							name: "연산자 이해하기",
 							description: {
-								text: "자바스크립트에서의 연산자에 대해 이해",
+								text: "자바스크립트에서의 연산자에 대한 이해",
 								links: [
-									["Webaim - CSS", "https://webaim.org/techniques/css/"]
+									["Tistory - 연산자 이해하기", "https://bigtop.tistory.com/16"],
+									["netlify - 자바스크립트의 연산자", "https://ykss.netlify.app/javascript/Javascript_Basic(4)/"],
 								]
 							},
 							skills: [
@@ -54,7 +47,8 @@ export const accessibilityCollection = {
 								description: {
 									text: "연산자를 이용해 손쉽게 할수 있는 여러가지 방법에 대해 깊이있게 알아보기",
 									links: [
-										["Webaim - CSS", "https://webaim.org/techniques/css/"]
+										["Javascript.Info - 논리 연산자", "https://ko.javascript.info/logical-operators"],
+										["MDN Web Docs - Optional Chaining", "https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Operators/Optional_chaining"],
 									]
 								}
 							}
@@ -65,29 +59,31 @@ export const accessibilityCollection = {
 				{  // 제어문
 					name: "제어문",
 					description: {
-						text: "Learn how to build accessible forms that makes it usable to as many people as possible.",
+						text: "프로그램의 순차적인 흐름을 제어해야 할 때 사용하는 실행문에 대해 알아보기",
 						links: [
-							["Webaim - Forms", "https://webaim.org/techniques/forms/"],
-							["Itnext - Form Accessibility Gudie", "https://itnext.io/form-accessibility-a-practical-guide-4062b7e2dd14"]
+							["Tistory - 제어문", "https://cofs.tistory.com/136"],
+							["velog - 제어문", "https://velog.io/@najiexx/JavaScript-%EC%A0%9C%EC%96%B4%EB%AC%B8"]
 						]
 					},
 					skills: [
 						{
 							name: "if문",
 							description: {
-								text: "Learn how to make the state of each UI element clear.",
+								text: "if 조건문에 대해 알아보기",
 								links: [
-									["Google Devs - Accessible Styles", "https://developers.google.com/web/fundamentals/accessibility/accessible-styles"]
+									["Tistory - if문", "https://creatorjo.tistory.com/28"],
+									["Javascript.Info - 조건처리", "https://ko.javascript.info/ifelse"],
+									["Tistory - if문", "https://pathas.tistory.com/19"],
 								]
 							}
 						},
 						{	// for문
 							name: "for문",
 							description: {
-								text: "Learn how to make it easy for keyboard users to navigate your site.",
+								text: "반복을 제어할수 있는 for문과 for문의 종류",
 								links: [
-									["Webaim - Keyboard", "https://webaim.org/techniques/keyboard/"],
-									["Smashing Magazine - Web with just a keyboard", "https://www.smashingmagazine.com/2018/07/web-with-just-a-keyboard/"]
+									["everdevel - for문", "https://www.everdevel.com/JavaScript/js-for/"],
+									["Tistory - for문의 종류", "https://yong-nyong.tistory.com/9"]
 								]
 							},
 							skills: [
