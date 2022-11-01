@@ -7,35 +7,31 @@ export const fundamentalsCollection = {
 				{
 					name: "웹프로그래밍이란", //Syntax
 					description: {
-						text: "Learn the basics of HTML and get comfortable with it's syntax and main concepts.",
+						text: "웹프로그래밍이란 무엇인지 알아보자.",
 						links: [
-							["MDN - HTML Basics", "https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics"],
-							["MDN - Introduction to HTML", "https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML"],
-							["Codecademy - Learn HTML", "https://www.codecademy.com/learn/learn-html"],
+							["velog - 웹프로그래밍이란 무엇인가", "https://velog.io/@jungchulheo0512/%EC%9B%B9-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D%EC%9D%B4%EB%9E%80-%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80"],
+							["velog - 웹프로그래밍이란", "https://velog.io/@bae_seonghyun613/%EC%9B%B9%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D%EC%9D%B4%EB%9E%80"],
 						]
 					},
 				},
 				{
 					name: "자바스크립트로_가능한_일", //Forms
 					description: {
-						text: "Learn how to design efficient forms, validating them effectively and keeping the user informed along the way.",
+						text: "자바스크립트로 무엇을 할수 있을까.",
 						links: [
-							["MDN - HTML forms", "https://developer.mozilla.org/en-US/docs/Learn/HTML/Forms"],
-							["Google Web - Forms", "https://developers.google.com/web/fundamentals/design-and-ux/input/forms/"],
-							["W3Schools - Forms", "https://www.w3schools.com/html/html_forms.asp"],
+							["Tistory - Javascript로 할수있는일", "https://developer-ping9.tistory.com/145"],
+							["blog - JavaScript로 세상을 지배하는 법", "https://jinblog.kr/186"],
+							["velog - 자바스크립트의 활용", "https://velog.io/@lzns960/01-1.-%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8%EC%9D%98-%ED%99%9C%EC%9A%A9"],
 						]
 					}
 				},
 				{
 					name: "자바스크립트의_특징",  //SEO
 					description: {
-						text: "Learn how to make your content search-friendly.",
+						text: "자바스크립트의 특징에 대해 알아보자.",
 						links: [
-							["web.dev - Discoverable", "https://web.dev/discoverable"],
-							["Google Search - Get Started", "https://developers.google.com/search/docs/guides/get-started"],
-							["Google Search - SEO basics", "https://developers.google.com/search/docs/guides/javascript-seo-basics"],
-							["web.dev - SEO audits", "https://web.dev/lighthouse-seo"]
-						]
+							["velog - 자바스크립트 언어의 특징", "https://velog.io/@sparkbosing/%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8-%EC%96%B8%EC%96%B4%EC%9D%98-%ED%8A%B9%EC%A7%95"],
+							["Tistory - 자바스크립트 특징 장단점", "https://ttoki.tistory.com/entry/%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8%EC%9D%98-%ED%8A%B9%EC%A7%95-%EC%9E%A5%EB%8B%A8%EC%A0%90"],
 					},
 				},
 			]
@@ -46,15 +42,9 @@ export const fundamentalsCollection = {
 				{
 					name: "개발환경_준비하기", //Syntax
 					description: {
-						text: "Learn the basics of CSS and get comfortable with it's syntax and main concepts.",
+						text: "자바스크립트를 개발하기위해 뭘 준비해야 할까",
 						links: [
-							["MDN - CSS Basics", "https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/CSS_basics"],
-							["W3Schools - CSS Tutorial", "https://www.w3schools.com/css/default.asp"],
-							["Supercharged - CSS Selectors", "https://www.youtube.com/watch?v=IKho_xDKaLw"],
-							["MDN - CSS first steps", "https://developer.mozilla.org/en-US/docs/Learn/CSS/First_steps"],
-							["MDN - CSS building blocks", "https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks"],
-							["MDN - CSS values and units", "https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Values_and_units"],
-							["MDN - CSS Syntax", "https://developer.mozilla.org/en-US/docs/Web/CSS/Syntax"],
+							["poiemaweb - 자바스크립트 개발 환경과 실행 방법", "https://poiemaweb.com/js-hello-world"],
 						]
 					}
 				},
