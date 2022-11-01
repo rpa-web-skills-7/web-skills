@@ -7,34 +7,31 @@ export const fundamentalsCollection = {
 				{
 					name: "웹프로그래밍이란", //Syntax
 					description: {
-						text: "Learn the basics of HTML and get comfortable with it's syntax and main concepts.",
+						text: "웹프로그래밍이란 무엇인지 알아보자.",
 						links: [
-							["MDN - HTML Basics", "https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics"],
-							["MDN - Introduction to HTML", "https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML"],
-							["Codecademy - Learn HTML", "https://www.codecademy.com/learn/learn-html"],
+							["velog - 웹프로그래밍이란 무엇인가", "https://velog.io/@jungchulheo0512/%EC%9B%B9-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D%EC%9D%B4%EB%9E%80-%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80"],
+							["velog - 웹프로그래밍이란", "https://velog.io/@bae_seonghyun613/%EC%9B%B9%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D%EC%9D%B4%EB%9E%80"],
 						]
 					},
 				},
 				{
 					name: "자바스크립트로_가능한_일", //Forms
 					description: {
-						text: "Learn how to design efficient forms, validating them effectively and keeping the user informed along the way.",
+						text: "자바스크립트로 무엇을 할수 있을까.",
 						links: [
-							["MDN - HTML forms", "https://developer.mozilla.org/en-US/docs/Learn/HTML/Forms"],
-							["Google Web - Forms", "https://developers.google.com/web/fundamentals/design-and-ux/input/forms/"],
-							["W3Schools - Forms", "https://www.w3schools.com/html/html_forms.asp"],
+							["Tistory - Javascript로 할수있는일", "https://developer-ping9.tistory.com/145"],
+							["blog - JavaScript로 세상을 지배하는 법", "https://jinblog.kr/186"],
+							["velog - 자바스크립트의 활용", "https://velog.io/@lzns960/01-1.-%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8%EC%9D%98-%ED%99%9C%EC%9A%A9"],
 						]
 					}
 				},
 				{
 					name: "자바스크립트의_특징",  //SEO
 					description: {
-						text: "Learn how to make your content search-friendly.",
+						text: "자바스크립트의 특징에 대해 알아보자.",
 						links: [
-							["web.dev - Discoverable", "https://web.dev/discoverable"],
-							["Google Search - Get Started", "https://developers.google.com/search/docs/guides/get-started"],
-							["Google Search - SEO basics", "https://developers.google.com/search/docs/guides/javascript-seo-basics"],
-							["web.dev - SEO audits", "https://web.dev/lighthouse-seo"]
+							["velog - 자바스크립트 언어의 특징", "https://velog.io/@sparkbosing/%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8-%EC%96%B8%EC%96%B4%EC%9D%98-%ED%8A%B9%EC%A7%95"],
+							["Tistory - 자바스크립트 특징 장단점", "https://ttoki.tistory.com/entry/%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8%EC%9D%98-%ED%8A%B9%EC%A7%95-%EC%9E%A5%EB%8B%A8%EC%A0%90"],
 						]
 					},
 				},
@@ -46,28 +43,21 @@ export const fundamentalsCollection = {
 				{
 					name: "개발환경_준비하기", //Syntax
 					description: {
-						text: "Learn the basics of CSS and get comfortable with it's syntax and main concepts.",
+						text: "자바스크립트를 개발하기위해 뭘 준비해야 할까",
 						links: [
-							["MDN - CSS Basics", "https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/CSS_basics"],
-							["W3Schools - CSS Tutorial", "https://www.w3schools.com/css/default.asp"],
-							["Supercharged - CSS Selectors", "https://www.youtube.com/watch?v=IKho_xDKaLw"],
-							["MDN - CSS first steps", "https://developer.mozilla.org/en-US/docs/Learn/CSS/First_steps"],
-							["MDN - CSS building blocks", "https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks"],
-							["MDN - CSS values and units", "https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Values_and_units"],
-							["MDN - CSS Syntax", "https://developer.mozilla.org/en-US/docs/Web/CSS/Syntax"],
+							["poiemaweb - 자바스크립트 개발 환경과 실행 방법", "https://poiemaweb.com/js-hello-world"],
+							["velog - 자바스크립트 개발 환경 설정", "https://velog.io/@jsh4732/JavaScript-%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8-%EA%B8%B0%EC%B4%88-2-%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8-%EA%B0%9C%EB%B0%9C-%ED%99%98%EA%B2%BD-%EC%84%A4%EC%A0%95"],
 						]
 					}
 				},
 				{
 					name: "비주얼_스튜디오_코드", //Selectors
 					description: {
-						text: "Learn about CSS selectors and how to effeciently target DOM elements.",
+						text: "비주얼 스튜디오 코드에 대해 알아보고 설치해보자고.",
 						links: [
-							["MDN - CSS selectors", "https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Selectors"],
-							["MDN - All selectors", "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Selectors"],
-							["CSS Tricks - Child and Sibling Selectors", "https://css-tricks.com/child-and-sibling-selectors/"],
-							["CSS Tricks - All Selectors", "https://css-tricks.com/almanac/selectors/"],
-							["W3Schools - CSS Combinators", "https://www.w3schools.com/css/css_combinators.asp"]
+							["Tistory - VS code로 개발환경 구축", "https://curryyou.tistory.com/169"],
+							["VSCode - download", "https://code.visualstudio.com/download"],
+							["github - VSCode 환경 설정 및 기초 사용법", "https://gwonsungjun.github.io/articles/2018-06/vscodeSetting"],
 						]
 					},
 					// skills: [
@@ -102,11 +92,10 @@ export const fundamentalsCollection = {
 				{
 					name: "소스_작성하고_실행하기", //Box Model
 					description: {
-						text: "Learn what the CSS box model means.",
+						text: "VS code로 소스코드 작성하고 실행해보기",
 						links: [
-							["MDN - Introduction to the CSS basic box model", "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Box_Model/Introduction_to_the_CSS_box_model"],
-							["MDN - The box model", "https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/The_box_model"],
-							["CSS Tricks - Inheriting box-sizing", "https://css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice/"],
+							["vscode - JavaScript in Visual Studio Code", "https://code.visualstudio.com/docs/languages/javascript"],
+							["Tistory - VS code 이용해서 자바스크립트 코딩 방법", "https://hnm1.tistory.com/entry/Javascript-vscode-%EC%9D%B4%EC%9A%A9%ED%95%B4%EC%84%9C-%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8-%EC%BD%94%EB%94%A9-%EB%B0%A9%EB%B2%95-Live-Server-HTML-Javascript"],
 						]
 					},
 					// skills: [
@@ -139,33 +128,31 @@ export const fundamentalsCollection = {
 				{
 					name: "자바스크립트_프로그램", //Colors
 					description: {
-						text: "Learn the different ways you can define colors in CSS.",
+						text: "자바스크립트 코드의 실행과정 이해하고 어플리케이션 개발하기.",
 						links: [
-							["MDN - Color", "https://developer.mozilla.org/en-US/docs/Web/CSS/color"],
-							["MDN - <color>", "https://developer.mozilla.org/en-US/docs/Web/CSS/color_value"],
-							["W3Schools - CSS Colors", "https://www.w3schools.com/css/css_colors.asp"],
+							["MDN - 자바스크립트에 발 담그기", "https://developer.mozilla.org/ko/docs/Learn/JavaScript/First_steps/A_first_splash"],
+							["Tistory - 자바스크립트 프로그램의 평가와 실행과정", "https://tangoo91.tistory.com/17"],
 						]
 					},
 				},
 				{
 					name: "자바스크립트의_입력과_출력", //Calc
 					description: {
-						text: "Learn how to use the CSS calc function.",
+						text: "자바스크립트의 입력과 출력 이해하기",
 						links: [
-							["MDN - Calc", "https://developer.mozilla.org/en-US/docs/Web/CSS/calc"],
-							["CSS Tricks - A Couple of Use Cases for Calc()", "https://css-tricks.com/a-couple-of-use-cases-for-calc/"],
+							["lamarr - 자바스크립트의 기본 입출력", "https://lamarr.dev/javascript/2020/04/06/01.html"],
+							["dasima - 입력 prompt", "https://dasima.xyz/javascript-input-prompt/"],
+							["tistory - 자바스크립트 콘솔에서 입력받기", "https://lakelouise.tistory.com/140"],
 						]
 					},
 				},
 				{
 					name: "소스_작성규칙", //Layout
 					description: {
-						text: "Learn the different layout types for web.",
+						text: "자바스크립트의 기본적인 소스코드 작성 규칙 알아보기",
 						links: [
-							["Chrome Dev - Basic Layout", "https://developers.google.com/training/certification/mobile-web-specialist/study-guide/basic-layout"],
-							["W3Schools - CSS Website Layout", "https://www.w3schools.com/css/css_website_layout.asp"],
-							["MDN - Document and website structure", "https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Document_and_website_structure"],
-							["MDN - CSS layout", "https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout"],
+							["gitbooks - Javascript 코드 작성규칙", "https://jeonghakhur.gitbooks.io/frontend-coding-convention/content/javascript/"],
+							["itsdday - Javascript code convention", "https://www.itsdday.com/2020/04/javascript-code-conventions.html"],
 						]
 					},
 					// skills: [
