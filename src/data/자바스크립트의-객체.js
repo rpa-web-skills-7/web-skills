@@ -2,10 +2,10 @@ export const webcomponentsCollection = {
 	name: "자바스크립트의 객체",
 	areas: [
 		{
-			name: "3.1 객체(Object)",
+			name: "객체(Object)",
 			skills: [
 				{
-					name: "3.1.1 객체란",
+					name: "객체란",
 					description: {
 						text: "Learn how to create new HTML tags with Custom Elements.",
 						links: [
@@ -20,7 +20,7 @@ export const webcomponentsCollection = {
 					}
 				},
 				{
-					name: "3.1.2 사용자 정의 객체",
+					name: "사용자 정의 객체",
 					description: {
 						text: "Learn how to use HTML templates to create flexible templates that can then be used to populate the Shadow DOM.",
 						links: [
@@ -31,7 +31,7 @@ export const webcomponentsCollection = {
 					},
 				},
 				{
-					name: "3.1.3 Date 객체 활용",
+					name: "Date 객체 활용",
 					description: {
 						text: "Learn how to encapsulate your CSS using Shadow DOM.",
 						links: [
@@ -76,10 +76,10 @@ export const webcomponentsCollection = {
 			]
 		},
 		{
-			name: "3.2 Array 객체(Object)",
+			name: "Array 객체(Object)",
 			skills: [
 				{
-					name: "3.2.1 Array 객체란",
+					name: "Array 객체란",
 					description: {
 						text: "Get familiar with best practices when it comes to building Web Components.",
 						links: [
@@ -91,7 +91,7 @@ export const webcomponentsCollection = {
 					}
 				},
 				{
-					name: "3.2.2 Array 객체의 함수 알아보기",
+					name: "Array 객체의 함수 알아보기",
 					description: {
 						text: "Learn how the Constructible Stylesheets proposal enables reusable styles when using shadow dom.",
 						links: [
@@ -105,7 +105,7 @@ export const webcomponentsCollection = {
 					}
 				},
 				{
-					name: "3.2.3 여행 준비물 점검 프로그램 만들기",
+					name: "여행 준비물 점검 프로그램 만들기",
 					description: {
 						text: "Learn how the Form Participation API proposal enables elements, other than built-in form control elements, to participate in form submission and validation.",
 						links: [
