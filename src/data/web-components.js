@@ -2,7 +2,7 @@ export const webcomponentsCollection = {
 	name: "자바스크립트의 객체",
 	areas: [
 		{
-			name: "객체(Object)",
+			name: "객체",
 			skills: [
 				{
 					name: "객체란",
@@ -66,11 +66,11 @@ export const webcomponentsCollection = {
 			]
 		},
 		{
-			name: "Array 객체(Object)",
+			name: "array 객체",
 			skills: [
 
 				{
-					name: "Array 객체란",
+					name: "array 객체란",
 					description: {
 						text: "객체 생성, 객체 안에 배열 생성, 배열안에 객체 생성",
 						links: [
@@ -81,7 +81,7 @@ export const webcomponentsCollection = {
 					}
 				},
 				{
-					name: "Array 객체의 함수 알아보기",
+					name: "array 객체의 함수 알아보기",
 					description: {
 						text: "JavaScript Array 클래스는 리스트 형태의 고수준 객체인 배열을 생성할 때 사용하는 전역 객체입니다.",
 						links: [
