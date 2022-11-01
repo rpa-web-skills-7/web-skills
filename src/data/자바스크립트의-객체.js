@@ -2,9 +2,10 @@ export const webcomponentsCollection = {
 	name: "자바스크립트의 객체",
 	areas: [
 		{
+			name: "3.1 객체(Object)",
 			skills: [
 				{
-					name: "객체(Object)",
+					name: "3.1.1 객체란",
 					description: {
 						text: "Learn how to create new HTML tags with Custom Elements.",
 						links: [
@@ -19,7 +20,7 @@ export const webcomponentsCollection = {
 					}
 				},
 				{
-					name: "HTML Templates",
+					name: "3.1.2 사용자 정의 객체",
 					description: {
 						text: "Learn how to use HTML templates to create flexible templates that can then be used to populate the Shadow DOM.",
 						links: [
@@ -30,7 +31,7 @@ export const webcomponentsCollection = {
 					},
 				},
 				{
-					name: "Shadow DOM",
+					name: "3.1.3 Date 객체 활용",
 					description: {
 						text: "Learn how to encapsulate your CSS using Shadow DOM.",
 						links: [
@@ -43,37 +44,42 @@ export const webcomponentsCollection = {
 
 						]
 					},
-					skills: [
-						{
-							name: "Shadow Parts",
-							description: {
-								text: "Learn how to style the inside of a shadow tree from outside of that Shadow Tree by using Shadow Parts.",
-								links: [
-									["Fergald - CSS Shadow ::part and ::theme", "https://github.com/fergald/docs/blob/master/explainers/css-shadow-parts-1.md"],
-									["MDN - ::part", "https://developer.mozilla.org/en-US/docs/Web/CSS/::part"],
-									["W3C - CSS Shadow Parts", "https://www.w3.org/TR/css-shadow-parts-1/"],
-									["Monica - ::part and ::theme, an explainer", "https://meowni.ca/posts/part-theme-explainer/"],
-									["Youtube - CSS Shadow Parts", "https://www.youtube.com/watch?v=yVrvOueeb3s"],
-									["Chrome Status - ::part and ::theme", "https://www.chromestatus.com/features/5763933658939392"]
-								]
-							}
-						},
-						{
-							name: "Slots",
-							description: {
-								text: "Learn how to compose Custom Elements by using slots.",
-								links: [
-									["Alligator.io - Composing Custom Elements", "https://alligator.io/web-components/composing-slots-named-slots/"],
-									["Javascript.info - Slots Composition", "https://javascript.info/slots-composition"],
-									["MDN - HTML <slot> element", "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/slot"],
-									["Component.kitchen - A history of the HTML slot element", "https://component.kitchen/blog/posts/a-history-of-the-html-slot-element"],
-								]
-							}
-						}
-					]
+					// skills: [
+					// {
+					// 	name: "Array 객체(Object)",
+					// 	description: {
+					// 		text: "Learn how to style the inside of a shadow tree from outside of that Shadow Tree by using Shadow Parts.",
+					// 		links: [
+					// 			["Fergald - CSS Shadow ::part and ::theme", "https://github.com/fergald/docs/blob/master/explainers/css-shadow-parts-1.md"],
+					// 			["MDN - ::part", "https://developer.mozilla.org/en-US/docs/Web/CSS/::part"],
+					// 			["W3C - CSS Shadow Parts", "https://www.w3.org/TR/css-shadow-parts-1/"],
+					// 			["Monica - ::part and ::theme, an explainer", "https://meowni.ca/posts/part-theme-explainer/"],
+					// 			["Youtube - CSS Shadow Parts", "https://www.youtube.com/watch?v=yVrvOueeb3s"],
+					// 			["Chrome Status - ::part and ::theme", "https://www.chromestatus.com/features/5763933658939392"]
+					// 		]
+					// 	}
+					// },
+					// {
+					// 	name: "Array 객체란",
+					// 	description: {
+					// 		text: "Learn how to compose Custom Elements by using slots.",
+					// 		links: [
+					// 			["Alligator.io - Composing Custom Elements", "https://alligator.io/web-components/composing-slots-named-slots/"],
+					// 			["Javascript.info - Slots Composition", "https://javascript.info/slots-composition"],
+					// 			["MDN - HTML <slot> element", "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/slot"],
+					// 			["Component.kitchen - A history of the HTML slot element", "https://component.kitchen/blog/posts/a-history-of-the-html-slot-element"],
+					// 		]
+					// 	}
+					// }
+					// ]
 				},
+			]
+		},
+		{
+			name: "3.2 Array 객체(Object)",
+			skills: [
 				{
-					name: "Best practices",
+					name: "3.2.1 Array 객체란",
 					description: {
 						text: "Get familiar with best practices when it comes to building Web Components.",
 						links: [
@@ -85,7 +91,7 @@ export const webcomponentsCollection = {
 					}
 				},
 				{
-					name: "Constructible Stylesheets",
+					name: "3.2.2 Array 객체의 함수 알아보기",
 					description: {
 						text: "Learn how the Constructible Stylesheets proposal enables reusable styles when using shadow dom.",
 						links: [
@@ -99,7 +105,7 @@ export const webcomponentsCollection = {
 					}
 				},
 				{
-					name: "Form Participation",
+					name: "3.2.3 여행 준비물 점검 프로그램 만들기",
 					description: {
 						text: "Learn how the Form Participation API proposal enables elements, other than built-in form control elements, to participate in form submission and validation.",
 						links: [
@@ -112,6 +118,7 @@ export const webcomponentsCollection = {
 						]
 					}
 				}
+
 			]
 		}
 	]
