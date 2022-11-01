@@ -1,7 +1,7 @@
 export const buildtoolsCollection = {
 	name: "객체모델",
 	areas: [
-		{	name: "문서_객체_모델(DOM)",  // asset에 폴더 추가하기. 이후 svg파일 이동, 이름바꾸기
+		{	name: "문서_객체_모델",  // asset에 폴더 추가하기. 이후 svg파일 이동, 이름바꾸기
 			skills: [
 				{
 					name: "문서_객체_모델이란",//Package Managers
@@ -192,7 +192,7 @@ export const buildtoolsCollection = {
 			]
 		},
 		{
-			name: "브라우저_객체_모델(BOM)",
+			name: "브라우저_객체_모델",
 			skills: [				
 			{
 				name: "브라우저_객체_모델이란", //Snowpack
