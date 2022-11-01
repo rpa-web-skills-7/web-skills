@@ -97,7 +97,7 @@ export const webcomponentsCollection = {
 						links: [
 							["여행 준비물 점검 목록 만들기", "https://malonmiming.tistory.com/111"],
 							["여행 준비물 점검 목록 만들기", "https://heimish77.tistory.com/29"],
-							["[자바스크립트] 점검 목록 프로그램", "https://velog.io/@tmdckzm/%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8-%EC%A0%90%EA%B2%80-%EB%AA%A9%EB%A1%9D-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%A8"]
+							["자바스크립트 점검 목록 프로그램", "https://velog.io/@tmdckzm/%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8-%EC%A0%90%EA%B2%80-%EB%AA%A9%EB%A1%9D-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%A8"]
 						]
 					}
 				}
