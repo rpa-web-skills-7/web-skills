@@ -1,22 +1,22 @@
 import "../atoms/button.js";
 import "../atoms/description.js";
-import { IS_TOUCH } from "../config.js";
-import { auth, AuthEvents } from "../firebase/auth.js";
-import { sharedStyles } from "../styles/shared.js";
+import {IS_TOUCH} from "../config.js";
+import {auth, AuthEvents} from "../firebase/auth.js";
+import {sharedStyles} from "../styles/shared.js";
 import {
 	attachLazyImgIntersectionObserver,
 	constructImagePathPrefix,
 	dispatchCloseDescriptionEvent,
 	getId
 } from "../util/util.js";
-import { css, html, LitElement } from "./../../web_modules/lit-element.js";
-import { repeat } from "./../../web_modules/lit-html/directives/repeat.js";
+import {css, html, LitElement} from "./../../web_modules/lit-element.js";
+import {repeat} from "./../../web_modules/lit-html/directives/repeat.js";
 
 /**
  * Element that renders a skill.
  */
 export class Skill extends LitElement {
-	static get properties() {
+	static get properties () {
 		return {
 			collection: {
 				type: Object
@@ -44,7 +44,7 @@ export class Skill extends LitElement {
 		}
 	}
 
-	static get styles() {
+	static get styles () {
 		return [
 			sharedStyles,
 			css`
@@ -214,15 +214,15 @@ export class Skill extends LitElement {
 		];
 	}
 
-	get isShowingDescription() {
+	get isShowingDescription () {
 		return this.hasMouseOver || this.forceShowDescription;
 	}
 
-	get skillId() {
+	get skillId () {
 		return getId(this.collection, this.area, this.skill);
 	}
 
-	constructor() {
+	constructor () {
 		super();
 		this.hasMouseOver = false;
 	}
@@ -230,7 +230,7 @@ export class Skill extends LitElement {
 	/**
 	 * Setup the element after it has been connected.
 	 */
-	connectedCallback() {
+	connectedCallback () {
 		super.connectedCallback();
 
 		this.completed = this.getCompleted();
@@ -241,7 +241,7 @@ export class Skill extends LitElement {
 	/**
 	 * Handles that the auth state changed and updates the completed state.
 	 */
-	authChanged() {
+	authChanged () {
 		if (this.completed !== this.getCompleted()) {
 			this.completed = this.getCompleted();
 			this.requestUpdate().then();
@@ -258,7 +258,7 @@ export class Skill extends LitElement {
 	 * Returns whether the skill is completed.
 	 * @returns {boolean}
 	 */
-	getCompleted() {
+	getCompleted () {
 		return !auth.isAuthenticated ? true : auth.hasCompletedSkill(this.skillId);
 	}
 
@@ -266,7 +266,7 @@ export class Skill extends LitElement {
 	 * Attach observers after first update.
 	 * @param {*} props
 	 */
-	firstUpdated(props) {
+	firstUpdated (props) {
 		super.firstUpdated(props);
 
 		// Lazy load the src of the image
@@ -291,7 +291,7 @@ export class Skill extends LitElement {
 	/**
 	 * Closes the description.
 	 */
-	closeDescription() {
+	closeDescription () {
 		this.forceShowDescription = false;
 		this.hasMouseOver = false;
 	}
@@ -299,7 +299,7 @@ export class Skill extends LitElement {
 	/**
 	 * Toggles force showing the description.
 	 */
-	toggleForceShowDescription() {
+	toggleForceShowDescription () {
 		const forceShowDescription = !this.isShowingDescription;
 		dispatchCloseDescriptionEvent();
 		this.forceShowDescription = forceShowDescription;
@@ -311,7 +311,7 @@ export class Skill extends LitElement {
 	/**
 	 * Handles mouse enter event.
 	 */
-	onMouseEnter() {
+	onMouseEnter () {
 		if (IS_TOUCH) return;
 		this.hasMouseOver = true;
 	}
@@ -319,7 +319,7 @@ export class Skill extends LitElement {
 	/**
 	 * Handles mouse leave event.
 	 */
-	onMouseLeave() {
+	onMouseLeave () {
 		if (IS_TOUCH) return;
 		this.hasMouseOver = false;
 		this.forceShowDescription = false;
@@ -328,9 +328,9 @@ export class Skill extends LitElement {
 	/**
 	 * Render the skill.
 	 */
-	render() {
-		const { skill, collection, area, completed } = this;
-		const { name, skills } = skill;
+	render () {
+		const {skill, collection, area, completed} = this;
+		const {name, skills} = skill;
 
 		return html`
 			<div id="skill" aria-label="${name}" tabindex="0" class="${completed ? `completed` : ``}" @click="${this.toggleForceShowDescription}" @mouseenter="${this.onMouseEnter}" @mouseleave="${this.onMouseLeave}">
