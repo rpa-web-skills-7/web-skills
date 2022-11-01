@@ -1,5 +1,5 @@
 import { fundamentalsCollection } from "./data/fundamentals.js";
-import { webcomponentsCollection } from "./data/자바스크립트의-객체.js";
+import { webcomponentsCollection } from "./data/web-components.js";
 import { accessibilityCollection } from "./data/자바스크립트-기초문법.js";
 import { pwaCollection } from "./data/pwa.js";
 import { architectureCollection } from "./data/architecture-and-paradigmes.js";
@@ -9,10 +9,7 @@ import { frameworksAndLibrariesCollection } from "./data/frameworks-and-librarie
 import { modernCollection } from "./data/modern.js";
 import { teamCollaborationCollection } from "./data/team-collaboration.js";
 import { algorithmsCollection } from "./data/algorithms.js";
-
-
 // import {designAndUXCollection} from "./data/design-and-ux.js";
-
 import { databasesCollection } from "./data/databases.js";
 
 /**
